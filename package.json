@@ -1,33 +1,37 @@
 {
-	"name": "learning_webpack",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"start": "webpack --mode development",
-		"build": "webpack --mode production"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/leonardograndi/learning_webpack.git"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/leonardograndi/learning_webpack/issues"
-	},
-	"homepage": "https://github.com/leonardograndi/learning_webpack#readme",
-	"devDependencies": {
-		"babel-core": "^6.26.3",
-		"babel-loader": "^7.1.5",
-		"babel-preset-env": "^1.7.0",
-		"babel-preset-react": "^6.24.1",
-		"webpack": "^4.15.1",
-		"webpack-cli": "^3.0.8"
-	},
-	"dependencies": {
-		"react": "^16.4.1",
-		"react-dom": "^16.4.1"
-	}
+  "name": "learning_webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardograndi/learning_webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonardograndi/learning_webpack/issues"
+  },
+  "homepage": "https://github.com/leonardograndi/learning_webpack#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
 }
